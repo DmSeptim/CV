@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  .conteiner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-list {
+    list-style: none;
+  }
+
+  .nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+
+
+  .link {
+    color: #829985;
+    transition: color 0.5s;
+  }
+  
+  .link:hover {
+    color: #5d7260;
+  }
+
+  /* main */
+
+  
+ .main-conteiner {
+     display: flex;
+     
+     flex-wrap: wrap;
+   }
+   
+   .section {
+   width: 50%;
+    
+  }
+
+  .title-h1, .title-h2{
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+
+  .contacts-list-item{
+    text-decoration: none;
+    list-style: none;
+
+  }
+
+  .contacts-img{
+    width: 18px;
+    height: 18px;
+  }
+
+  .section-item{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .skills-list-item{
+    
+  }
