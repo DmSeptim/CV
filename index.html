@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="conteiner">
             <nav class="nav">
                 <ul class="nav-list">
@@ -48,8 +48,17 @@
                         <span class="contacts-list-item">Email:</span>
                         <a class="contacts-list-item-email" href="mailto:dm.septim@gmail.com">dm.septim@gmail.com</a>
                     </div>
-                    <li class="contacts-list-item">Github: <a class="contacts-list-item-github" target="_blank" href="https://github.com/DmSeptim">DmSeptim</a></li>
-                    <li class="contacts-list-item">WhatsApp: <a class="contacts-list-item-whatsapp">+7 953 369 23 99</a></li>
+                    <div class="section-item">
+                        <img src="./icons8-github-48.png" alt="icon" class="contacts-img">
+                        <li class="contacts-list-item">Github: </li>
+                        <a class="contacts-list-item-email" target="_blank" href="https://github.com/DmSeptim">DmSeptim</a>
+                    </div>
+                    <div class="section-item">  
+                        <img src="./whatsapp.png" alt="icon" class="contacts-img">  
+                        <li class="contacts-list-item">WhatsApp: </li>
+                        <a class="contacts-list-item-email" target="_blank" href="https://wa.me/+79533692399">+7 953 369 23 99</a>
+                      
+                    </div>
                 </ul>
             </section>
 
@@ -68,10 +77,16 @@
                         </div>
                         <div class="section-item">
                             <li class="skills-list-item">Frameworks and libraries: </li>
-                            <li class="skills-list-item-fram">jQuery</li>
+                            <li class="skills-list-item-web">jQuery</li>
                         </div>
-                        <li class="skills-list-item">Version control: <p class="skills-list-item">Github</p></li>
-                        <li class="skills-list-item">Graphics: <p class="skills-list-item-graphics">Figma</p></li>
+                        <div class="section-item">
+                            <li class="skills-list-item">Version control: </li>
+                            <li class="skills-list-item-web">Github</li>
+                        </div>
+                        <div class="section-item">
+                            <li class="skills-list-item">Graphics:</li>
+                            <li class="skills-list-item-web">Figma</li>
+                        </div>
                     </ul>
             </section>
 
@@ -86,9 +101,19 @@
             <section class="education section" id="education">
                 <h2 class="section-title">EDUCATION AND COURSES</h2>
                 <ul class="education-list">
-                    <li class="education-list-item">University:<p class="education-list-text"></p></li>
-                    <li class="education-list-item">Hexlet:<p class="education-list-text">JavaScript for beginer</p></li>
-                    <li class="education-list-item">Rolling Scopes School<p class="education-list-text">JS / FRONT-END</p></li>
+                    <div class="section-item">
+                        <li class="education-list-item">University:</li>
+                        <li class="education-list-text">Saint Petersburg State Institute of Culture</li>
+                    </div>
+                    <div class="section-item">
+                        <li class="education-list-item">Hexlet:</li>
+                        <li class="education-list-text">JavaScript for beginer</li>
+                    </div>
+                    
+                    <div class="section-item">
+                        <li class="education-list-item">Rolling Scopes School:</li>
+                        <li class="education-list-text">JS / FRONT-END</li>
+                    </div>
                 </ul>
             </section>
 
@@ -101,7 +126,9 @@
         </div>
     </main>
 
-    <footer><div class="conteiner">
+    <footer class="footer">
+        <div class="conteiner">
+            <p class="footer-text">2023</p>
 
     </div>
     </footer>
