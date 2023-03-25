@@ -1,1 +1,1 @@
-https://dmseptim.github.io/cv/
+https://dmseptim.github.io/CV/
