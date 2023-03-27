@@ -111,12 +111,14 @@
   .contacts-list-item{
     text-decoration: none;
     list-style: none;
+    
 
   }
 
   .contacts-img{
     width: 18px;
     height: 18px;
+    vertical-align: baseline;
   }
 
   .section-item{
@@ -124,7 +126,10 @@
     flex-direction: row;
     list-style: none;
     text-decoration: none;
+    align-items: center;
   }
+
+
 
   .skills-list-item{
     
