@@ -108,6 +108,10 @@
     color: #829985;
   }
 
+  .contacts-list{
+   
+  }
+
   .contacts-list-item{
     text-decoration: none;
     list-style: none;
@@ -115,20 +119,38 @@
 
   }
 
+  .section-item{
+    margin: 0;
+  }
+
+  .education-list-item{
+    margin: 0;
+  }
+  .skills-list-item{
+    margin: 0;
+  }
+  .contacts-list-item{
+    margin: 0;
+  }
+
   .contacts-img{
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     vertical-align: baseline;
   }
 
   .section-item{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     list-style: none;
     text-decoration: none;
     align-items: center;
   }
 
+  .education-list-item{
+
+  }
 
 
   .skills-list-item{
@@ -163,7 +185,8 @@
 
   .footer{
     height: 50px;
-    background-color: #829985;;
+    background-color: #829985;
+    margin-top: 25px;
   }
   .footer-text{
     color: white;
