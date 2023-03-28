@@ -72,6 +72,7 @@
    
    .section {
    width: 50%;
+   padding: 0 2% 0 2%;
     
   }
 
@@ -82,10 +83,23 @@
     letter-spacing: 5px;
     color: #829985;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .title-h1{
+    margin-top: 15px;
     color: #4d2323;
     text-align: center;
+    margin-bottom: 10px;
+  }
+  .line-title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    background-color: #829985;
+    height: 2px;
+
   }
 
   .profile-line{
@@ -100,6 +114,7 @@
     bottom: 0;
   }
 
+
   .section-title {
     font-size: 20px;
     font-weight: 400;
@@ -109,7 +124,7 @@
   }
 
   .contacts-list{
-   
+   padding: 0;
   }
 
   .contacts-list-item{
@@ -118,7 +133,9 @@
     
 
   }
-
+  .Summary-text{
+    padding: 0;
+  }
   .section-item{
     margin: 0;
   }
@@ -131,6 +148,7 @@
   }
   .contacts-list-item{
     margin: 0;
+    padding-left: 3px;
   }
 
   .contacts-img{
@@ -148,24 +166,23 @@
     align-items: center;
   }
 
-  .education-list-item{
 
-  }
-
-
-  .skills-list-item{
-    
-  }
+ 
   .contacts-list-item-email{
     text-decoration: none;
     
     color: #829985;
   }
 
+  .skills-list{
+    padding: 0;
+  }
   .skills-list-item-web{
     color: #829985;
   }
-
+  .projects-list{
+    padding: 0;
+  }
   .project-list-item{
     list-style: none;
     
@@ -174,9 +191,19 @@
     text-decoration: none;
     color: #829985;
   }
+  .project-list-item-link:hover{
+    color: #4d2323;
+  }
 
+  .education-list{
+    padding: 0;
+  }
   .education-list-text{
     color: #829985;
+  }
+
+  .english-text{
+    padding: 0;
   }
 
 
