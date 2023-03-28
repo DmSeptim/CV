@@ -48,7 +48,6 @@
     line-height: 50px;
     text-decoration: none;
     font-size: 25px;
-    
   }
 
 
@@ -72,10 +71,8 @@
    
    .section {
    width: 50%;
-   padding: 0 2% 0 2%;
-    
+   padding: 0 2% 0 2%; 
   }
-
 
   .title-h1, .title-h2{
 
@@ -130,12 +127,12 @@
   .contacts-list-item{
     text-decoration: none;
     list-style: none;
-    
+  }
 
-  }
   .Summary-text{
-    padding: 0;
+    padding: 0;g
   }
+
   .section-item{
     margin: 0;
   }
@@ -143,9 +140,11 @@
   .education-list-item{
     margin: 0;
   }
+
   .skills-list-item{
     margin: 0;
   }
+
   .contacts-list-item{
     margin: 0;
     padding-left: 3px;
@@ -166,11 +165,8 @@
     align-items: center;
   }
 
-
- 
   .contacts-list-item-email{
-    text-decoration: none;
-    
+    text-decoration: none; 
     color: #829985;
   }
 
