@@ -214,3 +214,47 @@
   .footer-text{
     color: white;
   }
+
+.fix{
+  display: none;
+}
+
+  /* footer */
+
+  .footer{
+    height: 50px;
+    background-color: #829985;
+    margin-top: 25px;
+  }
+  .footer-text{
+    color: white;
+  }
+
+
+  @media screen  and (max-width: 768px){
+    .nav-link{
+      padding: 0 15px;
+    }
+  }
+
+  @media screen  and (max-width: 768px){
+    .nav-list{
+      flex-direction: column;
+    }
+
+    .header{
+      margin-bottom: 20px;
+    }
+
+    .header{
+      flex-direction: column;
+    }
+
+    .section{
+      width: 100%;
+    }
+
+    .fix{
+      display: block;
+    }
+  }
